@@ -20,7 +20,7 @@ public class User implements UserDetails {
     private long id;
 
     @Column(nullable = false)
-    private String firstNamel;
+    private String firstName;
 
     @Column(nullable = false)
     private String lastName;
@@ -96,12 +96,12 @@ public class User implements UserDetails {
         this.id = id;
     }
 
-    public String getFirstNamel() {
-        return firstNamel;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFirstNamel(String firstNamel) {
-        this.firstNamel = firstNamel;
+    public void setFirstName(String firstNamel) {
+        this.firstName = firstNamel;
     }
 
     public String getLastName() {
