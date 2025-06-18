@@ -100,8 +100,8 @@ public class User implements UserDetails {
         return firstName;
     }
 
-    public void setFirstName(String firstNamel) {
-        this.firstName = firstNamel;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {
